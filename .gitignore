@@ -1,0 +1,33 @@
+﻿# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs locais
+logs/*.csv
+logs/*.log
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cache Streamlit
+.streamlit/cache/
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.bak
